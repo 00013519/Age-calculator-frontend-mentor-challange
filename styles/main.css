@@ -34,7 +34,7 @@ main #input-form div label {
 }
 main #input-form div input {
   width: 100%;
-  font-size: 32px;
+  font-size: 30px;
   padding: 10px 5px;
   margin-top: 0.5rem;
   align-self: center;
@@ -66,7 +66,7 @@ main #divider #icon img {
   margin: 20px;
 }
 main #display-result {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-style: italic;
   font-weight: 800;
 }
@@ -98,4 +98,8 @@ main #display-result span {
     position: relative;
     top: -4rem;
   }
+  main #input-form div input {
+    font-size: 32px;
+    padding: 10px 15px;
+    }
 }/*# sourceMappingURL=main.css.map */
