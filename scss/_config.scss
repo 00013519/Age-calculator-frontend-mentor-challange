@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+// Variables
+$purple: #854dff; 
+$light-red: hsl(0, 100%, 67%); //errors
+$white: hsl(0, 0%, 100%); //background
+$off-white: hsl(0, 0%, 94%); //html background, desktop input border, hr
+$light-grey: hsl(0, 0%, 86%); // mobile version input border
+$smokey-grey: hsl(0, 1%, 44%); // input label, input value initial
+$off-black: hsl(0, 0%, 8%); // big tex  t

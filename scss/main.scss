@@ -1,0 +1,102 @@
+@import 'config';
+
+body{
+    background-color: $off-white;
+}
+main{
+    background-color: $white;
+    width: 90vw;
+    margin: 20vh auto;
+    border-radius: 30px;
+    border-bottom-right-radius: 150px;
+    padding: 60px 30px;
+
+    #input-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        color: $smokey-grey;
+        margin-bottom: 90px;
+        div{
+            display: flex;
+            flex-direction: column;
+
+            label{
+                letter-spacing: 0.2rem;            
+            }
+
+            input{
+                width: 100%;
+                font-size: 32px;
+                padding: 5px 15px;
+                margin-top: 0.5rem;
+                align-self: center;
+                border: 1px solid $light-grey;
+                border-radius: 0.5rem;
+            }
+
+            p{
+                color: $light-red;
+                margin-top: 5px;
+                font-size: 0.62rem;
+                font-weight: 400;
+                font-style: italic;
+                visibility: hidden;
+            }
+        }
+    }
+    #divider{
+    hr{
+        border: 1px solid $off-white;
+    }
+    #icon{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: $purple;
+        margin: auto;
+        position: relative;
+        top: -45px;
+
+        img{
+            height: 50px;
+            margin: 20px;
+        }
+    }
+    }
+    
+    #display-result{
+        font-size: 4rem;
+        font-style: italic;
+        font-weight: 800;
+        span{
+            color: $purple;
+        }
+    }
+}
+@media (min-width: 750px){
+    main{
+        width: 700px;
+        padding: 50px;
+        padding-bottom: 0;
+        border-bottom-right-radius: 200px;
+
+        #input-form{
+            margin-bottom: 30px;
+            margin-right: 10vw;
+            column-gap: 30px;
+            div p{
+                font-size: 0.7rem;
+            }
+        }
+
+        #icon{
+            right: -260px;
+        }
+        #display-result{
+            font-size: 4rem;
+            position: relative;
+            top: -4rem;
+        }
+    }
+}
