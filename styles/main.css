@@ -34,8 +34,8 @@ main #input-form div label {
 }
 main #input-form div input {
   width: 100%;
-  font-size: 20px;
-  padding: 5px 10px;
+  font-size: 25px;
+  padding: 5px 5px;
   margin-top: 0.5rem;
   align-self: center;
   border: 1px solid hsl(0, 0%, 86%);
@@ -66,7 +66,7 @@ main #divider #icon img {
   margin: 20px;
 }
 main #display-result {
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
   font-weight: 800;
 }
